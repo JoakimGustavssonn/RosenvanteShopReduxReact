@@ -1,0 +1,182 @@
+#stickyBasket {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 81px;
+  border-radius: 5px;
+  border-right: 6px;
+  border-color: rgb(255, 255, 255);
+  border-right-style: ridge;
+  border-right-color: rgba(110, 104, 104, 0.726);
+  background-color: rgba(196, 188, 188, 0.111);
+
+
+}
+
+#basketList{
+
+  background-color: rgba(255, 255, 255, 0.411);
+}
+
+#productsQty{
+
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  
+}
+#stickyHeader {
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+
+#screentest {
+
+  text-align: center;
+}
+
+#imageSize {
+
+  height: auto;
+  width: 350px;
+}
+
+#storeStyle {
+  background-color: black;
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+ 
+  background-size: 100%;
+  background-attachment: fixed;
+  
+}
+
+#btnBuy  {
+
+  text-align: center;
+ 
+  
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40%;
+
+  min-height: vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from, 0% {
+    transform: rotatey(0deg);
+    size: 50%;
+  }
+  
+  to, 100% {
+    transform: rotatey(21deg);
+    size: 100%;
+     }
+  from {
+    transform: rotatey(20deg);
+
+  }
+  to {
+    transform: rotatey(-20deg);
+
+  }
+}
+
+
+
+
+/*
+@media (min-width: 450px) {
+
+#screentest
+  {
+    height: auto;
+    width: auto;
+    background-color: aqua;
+  }
+}
+@media (min-width: 768px) {
+
+#screentest
+  {
+    height: auto;
+    width: auto;
+    background-color:green;
+  }
+
+#imageSize {
+    width: 300px;
+  }
+#stickyBasket {
+    top: 245px;
+  }
+}
+@media (min-width: 992px) {
+
+#screentest
+  {
+    height: auto;
+    width: auto;
+    background-color: brown;
+  }
+
+#stickyBasket {
+    top: 81px;
+  }
+}
+@media (min-width: 1200px) {
+
+#screentest
+  {
+    height: auto;
+    width: auto;
+    background-color: rgb(125, 138, 109);
+  }
+.row {
+    height: auto;
+    width: auto;
+   }
+ #stickyBasket {
+   top: 81px;
+   }
+}
+*/
+

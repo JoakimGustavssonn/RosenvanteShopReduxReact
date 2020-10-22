@@ -1,0 +1,98 @@
+{
+
+
+    "products":[
+
+    {
+            "title":" Gröna Vantar",
+            "storlek":"Medium",
+            "pris": 250 ,
+            "id": 1,
+            "sku": 1928346122,
+            "beskrivning": "Kort Beskrivning: SKöna vantar ",
+            "I lager": 1
+        },
+    {
+            "title":"Röda Vantar hej hej",
+            "storlek":"Medium",
+            "pris": 1753 ,
+            "id": 2,
+            "sku": 19283461222,
+            "beskrivning": " Vantar utan fingrar",
+            "I lager": 1
+        },
+    {
+            "title":"Blå Vantar",
+            "storlek":"Medium",
+            "pris": 233 ,
+            "id": 3,
+            "sku": 19283461223,
+            "beskrivning": " Vantar från Gotland",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Blå Vantar",
+            "storlek":"Medium",
+            "pris": 45 ,
+            "id": 4,
+            "sku": 19283461223,
+            "beskrivning": " Vantar från Gotland",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Vinter sköna vat Vantar",
+            "storlek":"Medium",
+            "pris": 400 ,
+            "id": 5,
+            "sku": 19283461223,
+            "beskrivning": " Vantar från Gotland",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Blå Vantar",
+            "storlek":"Medium",
+            "pris": 500 ,
+            "id": 6,
+            "sku": 19283461223,
+            "beskrivning": "De skiljer sig från sina släktingar ",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Gula Vantar",
+            "storlek":"Medium",
+            "pris": 9500 ,
+            "id": 7,
+            "sku": 19283461223,
+            "beskrivning": " Vantar från Gotland",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"GRå Vantar",
+            "storlek":"Medium",
+            "pris": 2400 ,
+            "id": 8,
+            "sku": 19283461223,
+            "beskrivning": " Vantar från Gotland",
+            "I lager": 1
+
+        }
+
+
+
+
+
+    
+    ]
+
+
+} 

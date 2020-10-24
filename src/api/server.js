@@ -20,12 +20,12 @@ app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
 const oauth2Client = new OAuth2(
-  "628184904031-cj2vk8253codlp2ndm9h3q079f6oihoi.apps.googleusercontent.com", // ClientID
-  "TRIhUd9mH1AkERsL788wkWdq", // Client Secret
+  config.clientId, // ClientID
+  config.clientSecret, // Client Secret
   "https://developers.google.com/oauthplayground" // Redirect URL
 );
 oauth2Client.setCredentials({
-  refresh_token: "1//04sIANFlChP0FCgYIARAAGAQSNwF-L9IrLVAy87fTxuYCFJ6cHN14vHG-Kjkzz7Qnv3fm_zT5v96NALcqgniOKyVg50oyXTCkdn0"
+  refresh_token: config.refreshToken
 });
 const accessToken = oauth2Client.getAccessToken();
 

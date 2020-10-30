@@ -28,7 +28,7 @@
     "@babel/preset-env": "7.5.5"
   },
   "scripts": {
-    "start": "run-p start:**",
+    "start": "",
     "start:app": "react-scripts start",
     "start:lambda": "netlify-lambda serve src/api/",
     "build": "run-p build:**",

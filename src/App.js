@@ -9,14 +9,6 @@ import store from './store';
 import {Container, Row, Col} from 'react-bootstrap';
 
 
-
-
-
-
-
-
-
-
 class App extends Component{
 
 
@@ -37,7 +29,7 @@ class App extends Component{
       
 
         <Row >
-          <Col sm={8}>     
+          <Col md={8}>     
 
               <Products />
           
@@ -48,6 +40,8 @@ class App extends Component{
           </Col> 
 
         </Row> 
+
+        
 
         
         </Container>

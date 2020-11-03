@@ -22,7 +22,7 @@ import {Container, Row, Col, Button, Card} from 'react-bootstrap'
         
         const productItems = this.props.products.map( product => (
             
-                <Col md={6} key={product.id} >
+                <Col md={4} sm={4} xs={6} key={product.id} >
                 
                 <Card id="screentest" className="text-center" class="card">
                 <Card.Img variant="top" href={`#${product.id}`} src={`/products/${product.sku}.png`} alt={product.title} />
@@ -45,7 +45,7 @@ import {Container, Row, Col, Button, Card} from 'react-bootstrap'
         
 
         return (
-            <Row lg={4}>
+            <Row md={3} sm={3} xs={6} >
                 {productItems}
                 
             </Row>

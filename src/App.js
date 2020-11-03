@@ -21,21 +21,20 @@ class App extends Component{
         
           <div id ="stickyHeader" >
           <h1 > Rosenvante Butik</h1>
-        <hr/>
-
-        
-        </div>
+          <hr/>
+          </div>
 
       
 
         <Row >
-          <Col md={8}>     
-
+          <Col md={8} sm={12} xs={12}>     
               <Products />
-          
-          </Col>
 
-          <Col sm={4}>
+          </Col>
+          
+          
+
+          <Col sm={4} md={4} xs={4}>
               <Basket />
           </Col> 
 

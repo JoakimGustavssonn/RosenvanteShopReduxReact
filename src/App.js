@@ -27,7 +27,7 @@ class App extends Component{
       
 
         <Row >
-          <Col md={8} sm={12} xs={12}>     
+          <Col className="pb-4" md={8} sm={12} xs={12}>     
               <Products />
 
           </Col>

@@ -1,3 +1,11 @@
+body {
+
+
+  font-size: 0.8rem !important;
+}
+
+
+
 #stickyBasket {
   position: -webkit-sticky;
   position: sticky;
@@ -16,6 +24,16 @@
 
   background-color: rgba(250, 163, 1, 0.411);
 }
+
+#basketList {
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
 
 #productsQty{
 
@@ -62,6 +80,11 @@
   text-align: center;
   border-radius: 5px;
   
+}
+
+.h5 {
+
+  font-size: 1rem !important;
 }
 
 

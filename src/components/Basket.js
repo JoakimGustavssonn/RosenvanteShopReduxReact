@@ -4,7 +4,6 @@ import {removeFromCart} from '../actions/cartActions';
 import {addToCart} from '../actions/cartActions';
 import ContactForm from './Contactform';
 import {formBasket} from '../actions/cartActions';
-
 import {ListGroup, Button} from 'react-bootstrap';
 
 class Basket extends Component {
@@ -28,15 +27,11 @@ class Basket extends Component {
                                     <b >{item.title} 
                                     <br/>
                                     {item.pris}kr</b> 
-                                                                         
                                 
-                                     <Button variant="danger" id="btn-basket-pos"
+                                    <Button variant="danger" id="btn-basket-pos"
                                     onClick={() =>this.props.removeFromCart(this.props.cartItems, item)}
                                     >Ta bort</Button>
                                     
-
-                               
-                               
                                </ListGroup.Item>  )}
                             
                         </ListGroup>            

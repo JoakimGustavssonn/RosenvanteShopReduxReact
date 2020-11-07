@@ -5,6 +5,8 @@ import Products from './components/Products';
 import Basket from './components/Basket';
 import {Provider} from 'react-redux';
 import store from './store';
+import Footer from './components/Footer';
+
 
 import {Container, Row, Col} from 'react-bootstrap';
 
@@ -23,7 +25,7 @@ class App extends Component{
           <h1 > Rosenvante Butik</h1>
           <hr/>
           </div>
-
+         
       
 
         <Row >
@@ -40,9 +42,8 @@ class App extends Component{
 
         </Row> 
 
-        
-
-        
+        <Footer />
+                
         </Container>
         
 

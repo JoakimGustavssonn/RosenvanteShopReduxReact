@@ -19,73 +19,66 @@ class ContactForm extends Component {
         
       };
           
-
-      
-      
-      
       handleSubmit = async e => {
         e.preventDefault();
         const response = await fetch('/.netlify/functions/server/api/postmessage', {
           method:'POST',
-          headers: {
-            
+          headers: {            
             'Content-Type': 'application/json'
-          },      
-          body: JSON.stringify({ email: this.state.email, subject: this.state.subject, meddelande: this.state.meddelande}),
+          },    
+
+          body: JSON.stringify({
+             email: this.state.email,
+              subject: this.state.subject,
+              meddelande: this.state.meddelande
+            }),
         
         });
+
         const body = await response.text();
 
         this.setState({ responseToPost: body });
-
         console.log(this.state.responseToPost);
-        if (this.state.responseToPost === 'success') {
-          alert ("Message Sent.")
+
+            if (this.state.responseToPost === 'success') 
+            {
+              alert ("Message Sent.")
+
               if (this.state.stringData === body.text)
-        {
-          console.log('TRUE');
-          this.resetForm()
-        }
-          
-          }
+                  {
+                    console.log('TRUE');
+                    this.resetForm()
+                  }
+                  
+            }
 
-          else{
-        
-            alert ("Message failed to sent")
-             }
-
-              
+            else
+            {
+              alert ("Message failed to sent")
+            }      
     };
 
     resetForm = () => {
       this.setState({email: '', subject: '', meddelande:''})
       window.location.reload();
 
-      
-      
 }
-
-
-     
-
-
 
       //
       onChange = (e) => this.setState({ [e.target.name]: e.target.value})
       ;
       onChange2 = (e) => {
-        const {cartItems} = this.props
+      const {cartItems} = this.props
       const stringData = cartItems.reduce((result, item) => {
 
-
-        return  `${result} ${item.id} ${item.title}. Pris: ${item.pris} \n \n `
+      return  `${item.title} ${item.id} ${result} . Pris: ${item.pris} \n \n ` // Email content
         
       }, "")
 
         this.setState({
-          meddelande: stringData,
+        meddelande: stringData,
           
-                 
+              
       });
       
       

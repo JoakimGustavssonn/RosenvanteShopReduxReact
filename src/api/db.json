@@ -9,11 +9,11 @@
             "pris": 250 ,
             "id": 1,
             "sku": 1928346122,
-            "beskrivning": "Kort Beskrivning: SKöna vantar ",
+            "beskrivning": "SKöna vantar ",
             "I lager": 1
         },
     {
-            "title":"Röda Vantar hej hej",
+            "title":"Röda Vantar",
             "storlek":"Medium",
             "pris": 1753 ,
             "id": 2,
@@ -27,7 +27,7 @@
             "pris": 233 ,
             "id": 3,
             "sku": 19283461223,
-            "beskrivning": " Vantar från Gotland",
+            "beskrivning": " Vantar",
             "I lager": 1
 
         },
@@ -38,18 +38,18 @@
             "pris": 45 ,
             "id": 4,
             "sku": 19283461223,
-            "beskrivning": " Vantar från Gotland",
+            "beskrivning": "Gotländska",
             "I lager": 1
 
         },
 
         {
-            "title":"Vinter sköna vat Vantar",
+            "title":"Vinter vantar",
             "storlek":"Medium",
-            "pris": 400 ,
+            "pris": 35 ,
             "id": 5,
             "sku": 19283461223,
-            "beskrivning": " Vantar från Gotland",
+            "beskrivning": "90% Ull",
             "I lager": 1
 
         },
@@ -57,35 +57,158 @@
         {
             "title":"Blå Vantar",
             "storlek":"Medium",
-            "pris": 500 ,
+            "pris": 200 ,
             "id": 6,
             "sku": 19283461223,
-            "beskrivning": "De skiljer sig från sina släktingar ",
+            "beskrivning": "Sticks ej!",
             "I lager": 1
 
         },
 
         {
-            "title":"Gula Vantar",
+            "title":"Vantar",
             "storlek":"Medium",
-            "pris": 9500 ,
+            "pris": 80 ,
             "id": 7,
             "sku": 19283461223,
-            "beskrivning": " Vantar från Gotland",
+            "beskrivning": "Sockar av ull",
             "I lager": 1
 
         },
 
         {
-            "title":"GRå Vantar",
+            "title":"Vit mössa",
             "storlek":"Medium",
-            "pris": 2400 ,
+            "pris": 60 ,
             "id": 8,
             "sku": 19283461223,
-            "beskrivning": " Vantar från Gotland",
+            "beskrivning": "Mössa med tyg",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Ullsockar",
+            "storlek":"Medium",
+            "pris": 24 ,
+            "id": 9,
+            "sku": 19283461223,
+            "beskrivning": "Ullisar",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"UllKudde",
+            "storlek":"Medium",
+            "pris": 50 ,
+            "id": 10,
+            "sku": 19283461223,
+            "beskrivning": "Ullkudde Knappar",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Huvudbonad",
+            "storlek":"Medium",
+            "pris": 100 ,
+            "id": 11,
+            "sku": 19283461223,
+            "beskrivning": "Stor mössa",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Ullpläd",
+            "storlek":"Medium",
+            "pris": 1200 ,
+            "id": 12,
+            "sku": 19283461223,
+            "beskrivning": "Egna får",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Ipad Fodral",
+            "storlek":"Medium",
+            "pris": 125 ,
+            "id": 13,
+            "sku": 19283461223,
+            "beskrivning": "Av ren Ull",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Kaffekoppsskydd",
+            "storlek":"Medium",
+            "pris": 15 ,
+            "id": 14,
+            "sku": 19283461223,
+            "beskrivning": "av Ull",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Sittpläd",
+            "storlek":"Medium",
+            "pris": 850 ,
+            "id": 15,
+            "sku": 19283461223,
+            "beskrivning": "Liten rund",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Rattmuff",
+            "storlek":"Medium",
+            "pris": 150 ,
+            "id": 16,
+            "sku": 19283461223,
+            "beskrivning": "av Ull",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Stor väska",
+            "storlek":"Medium",
+            "pris": 130 ,
+            "id": 17,
+            "sku": 19283461223,
+            "beskrivning": "40% Ull 60% Bomull",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Ulltäcke",
+            "storlek":"Medium",
+            "pris": 2800 ,
+            "id": 18,
+            "sku": 19283461223,
+            "beskrivning": "Varmt!",
+            "I lager": 1
+
+        },
+
+        {
+            "title":"Kängor",
+            "storlek":"Medium",
+            "pris": 3200 ,
+            "id": 19,
+            "sku": 19283461223,
+            "beskrivning": "100% Ull!",
             "I lager": 1
 
         }
+
+
 
 
 

@@ -1,4 +1,4 @@
-import { ADD_TO_CART, REMOVE_FROM_CART, FORM_BASKET} from "../actions/types";
+import { ADD_TO_CART, REMOVE_FROM_CART} from "../actions/types";
 
 
 const initialState = {items: []} ;
@@ -25,15 +25,7 @@ export default function (state=initialState, action){
             items: action.payload.cartItems
            }
 
-
-           case FORM_BASKET:
-
-           return {
-               items:action.payload.cartItems,
-               
-               
-           }
-        
+            
         default:
             return state;
 

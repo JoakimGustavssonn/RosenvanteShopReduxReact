@@ -1,4 +1,4 @@
-import {ADD_TO_CART, REMOVE_FROM_CART, FORM_BASKET} from "./types";
+import {ADD_TO_CART, REMOVE_FROM_CART} from "./types";
 
 
 export const addToCart = (items, product) => (dispatch) => {
@@ -7,10 +7,6 @@ const cartItems = items.slice();
 console.log(items);
 console.log(product.id);
 console.log(cartItems);*/
-
-
-
-
  
   
            let productiAlreadyInCart = false;
@@ -67,17 +63,3 @@ export const removeFromCart = (items, product) => (dispatch) => {
         
 } 
 
-export const formBasket = (items) => (dispatch) => {
-  const cartItems =items;
-  console.log('Formbasket' + items.length);
-      
-    
-     return dispatch ({
-         type:FORM_BASKET, payload:{
-
-         cartItems
-     }
-   })
-     
-     
-} 

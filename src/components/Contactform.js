@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
+import { useHistory } from 'react-router-dom';
 
 
 
@@ -12,6 +13,7 @@ class ContactForm extends Component {
         subject:'',
         meddelande: '',
         isSubmitted: '',
+        
         
       };
           
@@ -45,6 +47,7 @@ class ContactForm extends Component {
                     console.log('TRUE');
                     this.state.isSubmitted = true;
                     this.setState({email: '', subject: '', meddelande:''});
+                    
 
                   }
                   
@@ -68,7 +71,7 @@ class ContactForm extends Component {
       }, "")
 
         this.setState({
-        meddelande: stringData,
+        meddelande: stringData
           
               
       });
@@ -76,15 +79,22 @@ class ContactForm extends Component {
       
     }        
       
+       handleClick = (history) => { 
+        useHistory()
+        history.push('/success');
+      }
+
     render() {
 
+      
         return (
 
 
           
            <div>
                  {this.state.isSubmitted ?
-                      <div> <h2> Tack för ditt meddelande!</h2> </div> 
+                      <div> {this.handleClick} </div> 
+                      
                       
                   : <form  onSubmit={this.handleSubmit} method="POST" >
                     <p > 

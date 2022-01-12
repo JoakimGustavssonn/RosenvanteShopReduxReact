@@ -75,7 +75,7 @@ body('meddelande').isLength({ min: 5 })
                     }
               var mailOption = {
                 from: `${mail.from} <noreply@rosenvanteshop.se>`, // sender address
-                to: 'shoprosenvante@gmail.com', // recipient address
+                to: 'gmail.com', // recipient address
                 replyTo: `${mail.from}`,
                 subject: mail.subject,
                 text: mail.text
